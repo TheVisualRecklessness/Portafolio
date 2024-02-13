@@ -1,0 +1,93 @@
+body {
+    font-size: 3vw;
+    background: linear-gradient(90deg, rgb(28, 51, 61) 0%, rgb(46, 46, 94) 50%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+}
+
+h1 {
+    font-size: 3vw;
+    margin-bottom: 0;
+
+}
+
+header {
+    background-color: rgb(6, 82, 82);
+}
+
+.navbar-toggler {
+    font-size: 3vw;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+li>a {
+    color: white !important;
+}
+
+p{
+    text-align: justify;
+}
+
+#personal-photo {
+    width: auto;
+    height: 50vh;
+    margin-bottom: 2vh;
+}
+
+#projects-header {
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 1vh;
+    text-align: center;
+}
+
+#about-header {
+    font-weight: bold;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.each-project {
+    margin-bottom: 2vh;
+}
+
+
+@media (min-width: 992px){
+    body {
+        font-size: 1vw;
+    }
+    
+    h1 {
+        font-size: 1.5vw;
+        margin-bottom: 0;
+    
+    }
+    
+    .navbar-toggler {
+        font-size: 3vw;
+    }
+    
+    #personal-photo {
+        width: auto;
+        height: 50vh;
+    }
+    #projects-header {
+        font-weight: bold;
+        text-align: left;
+        font-size: 2vw;
+        margin-top: 1vh;
+        text-align: start;
+    }
+    
+    #about-header {
+        font-weight: bold;
+        font-size: 2vw;
+        text-align: start;
+    }
+    #navbarNav {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
