@@ -26,8 +26,16 @@ li>a {
     color: white !important;
 }
 
+#paragraph-about{
+    font-size: 3.5vw;
+}
+
 p{
     text-align: justify;
+}
+
+h5 {
+    font-size: 4vw;
 }
 
 #personal-photo {
@@ -36,7 +44,7 @@ p{
     margin-bottom: 2vh;
 }
 
-#projects-header {
+.cards-header {
     font-weight: bold;
     font-size: 4vw;
     margin-top: 1vh;
@@ -53,6 +61,16 @@ p{
     margin-bottom: 2vh;
 }
 
+.project-button {
+    font-size: 3vw;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer>div{
+    display: flex;
+    justify-content: center;
+}
 
 @media (min-width: 992px){
     body {
@@ -63,6 +81,14 @@ p{
         font-size: 1.5vw;
         margin-bottom: 0;
     
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    #paragraph-about{
+        font-size: 1.3vw;
     }
     
     .navbar-toggler {
@@ -89,5 +115,9 @@ p{
     #navbarNav {
         display: flex;
         justify-content: flex-end;
+    }
+    .project-button {
+        font-size: 1rem;
+        padding: 10px;
     }
 }
